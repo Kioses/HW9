@@ -1,7 +1,9 @@
-package main;
+package test;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
+
+import main.Calender;
 
 import java.util.GregorianCalendar;
 import static org.junit.jupiter.api.Assertions.*;
@@ -24,6 +26,6 @@ class TestCalendar {
 		assertEquals(actualResult, expectedResult);
 	}
 
-// Implement test cases for the equivalent partitions 
+ 
 
 }
